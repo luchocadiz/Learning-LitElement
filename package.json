@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@graviton/dropdown": "^1.1.5",
     "lit-element": "^4.1.1"
   },
   "devDependencies": {
