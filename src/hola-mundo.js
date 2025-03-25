@@ -1,4 +1,5 @@
 import { LitElement, html } from 'lit-element';
+import { sharedStyless } from './styles-css';
 
 //LitElement es una clase base que extiende funcionalidad para poder crear webcomponent 
 //de manera mucho mas eficiente y con mas beneficios
@@ -15,6 +16,14 @@ export class HolaMundo extends LitElement {
         return {
             name: {type: String}
         };
+    }
+
+    static get Styles(){
+        return [sharedStyless,
+            css `
+            
+            ` 
+        ];
     }
 
     //Permite definir el template. Es decir la parte visual del componente
